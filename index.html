@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+    <div id="account">
+        <h2>CREATE-ACCOUNT</h2>
+        <form id="details">
+            <div class="enter-details">
+                <label for="">UserName</label>
+                <input type="text" placeholder="enter details" id="username">
+                <div class="error"></div>
+            </div>
+            <div class="enter-details">
+                <label for="">e-mail</label>
+                <input type="email" placeholder="enter mail" id="usermail" >
+                <div class="error"></div>
+            </div>
+
+            <div class="enter-details">
+                <label for="">Password</label>
+                <input type="password" placeholder="enter password" id="userpassword">
+                <div class="error"></div>
+            </div>
+            <div class="enter-details">
+                <label for="">Confirm Password</label>
+                <input type="password" placeholder="re-enter password" id="confirm">
+                <div class="error"></div>
+            </div>
+            <button id="submit">SUBMIT</button>
+        </form>
+    </div>
+    <script src="./form.js"></script>
+</body>
+
+</html>
